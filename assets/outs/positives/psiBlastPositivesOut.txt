@@ -1,0 +1,6933 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: onesdb
+           100 sequences; 1,500 total letters
+
+Results from round 1
+
+
+Query= 0
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+0 unnamed protein product                                             31.6       4e-08
+30 unnamed protein product                                            29.6       2e-07
+
+
+>0 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GTRRMAKKNAIVRSL  15
+           GTRRMAKKNAIVRSL
+Sbjct  1   GTRRMAKKNAIVRSL  15
+
+
+>30 unnamed protein product
+Length=15
+
+ Score = 29.6 bits (65),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1   GTRRMAKKNAIVRS  14
+           GTRRMAKKNAIVRS
+Sbjct  2   GTRRMAKKNAIVRS  15
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.129    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 0
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.129    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0394    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 1
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+1 unnamed protein product                                             31.2       6e-08
+
+
+>1 unnamed protein product
+Length=15
+
+ Score = 31.2 bits (69),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KSGGHTPKALPGPGG  15
+           KSGGHTPKALPGPGG
+Sbjct  1   KSGGHTPKALPGPGG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.141    0.461    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 1
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+1 unnamed protein product                                             22.6       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>1 unnamed protein product
+Length=15
+
+ Score = 22.6 bits (47),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KSGGHTPKALPGPGG  15
+           KSGGHTPKALPGPGG
+Sbjct  1   KSGGHTPKALPGPGG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.145    0.484    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0444    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 2
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+2 unnamed protein product                                             32.7       1e-08
+
+
+>2 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VDEAHRLKNDDSLLY  15
+           VDEAHRLKNDDSLLY
+Sbjct  1   VDEAHRLKNDDSLLY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.135    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 2
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+2 unnamed protein product                                             22.7       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>2 unnamed protein product
+Length=15
+
+ Score = 22.7 bits (47),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VDEAHRLKNDDSLLY  15
+           VDEAHRLKNDDSLLY
+Sbjct  1   VDEAHRLKNDDSLLY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 3
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+3 unnamed protein product                                             33.5       6e-09
+
+
+>3 unnamed protein product
+Length=15
+
+ Score = 33.5 bits (75),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SLICRAVKATFNPAQ  15
+           SLICRAVKATFNPAQ
+Sbjct  1   SLICRAVKATFNPAQ  15
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.129    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 3
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+3 unnamed protein product                                             25.1       2e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>3 unnamed protein product
+Length=15
+
+ Score = 25.1 bits (53),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SLICRAVKATFNPAQ  15
+           SLICRAVKATFNPAQ
+Sbjct  1   SLICRAVKATFNPAQ  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.131    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0402    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 4
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+4 unnamed protein product                                             35.0       2e-09
+
+
+>4 unnamed protein product
+Length=15
+
+ Score = 35.0 bits (79),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ENVSYQDKGNYRCTA  15
+           ENVSYQDKGNYRCTA
+Sbjct  1   ENVSYQDKGNYRCTA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.126    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 4
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+4 unnamed protein product                                             25.1       1e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>4 unnamed protein product
+Length=15
+
+ Score = 25.1 bits (53),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ENVSYQDKGNYRCTA  15
+           ENVSYQDKGNYRCTA
+Sbjct  1   ENVSYQDKGNYRCTA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.129    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0395    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 5
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+5 unnamed protein product                                             31.2       5e-08
+
+
+>5 unnamed protein product
+Length=15
+
+ Score = 31.2 bits (69),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   RTSFKERKEEDSHTT  15
+           RTSFKERKEEDSHTT
+Sbjct  1   RTSFKERKEEDSHTT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.299    0.112    0.290    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 5
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+5 unnamed protein product                                             21.8       3e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>5 unnamed protein product
+Length=15
+
+ Score = 21.8 bits (44),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   RTSFKERKEEDSHTT  15
+           RTSFKERKEEDSHTT
+Sbjct  1   RTSFKERKEEDSHTT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.117    0.300    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0358    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 6
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+6 unnamed protein product                                             32.3       2e-08
+
+
+>6 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   TLMLFFDKFANIVPF  15
+           TLMLFFDKFANIVPF
+Sbjct  1   TLMLFFDKFANIVPF  15
+
+
+
+Lambda      K        H        a         alpha
+   0.347    0.158    0.496    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 6
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.165    0.583    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0505    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 7
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+7 unnamed protein product                                             31.6       4e-08
+
+
+>7 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GTTPVTRKAAAQQLG  15
+           GTTPVTRKAAAQQLG
+Sbjct  1   GTTPVTRKAAAQQLG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.120    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 7
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+7 unnamed protein product                                             20.6       9e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>7 unnamed protein product
+Length=15
+
+ Score = 20.6 bits (41),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GTTPVTRKAAAQQLG  15
+           GTTPVTRKAAAQQLG
+Sbjct  1   GTTPVTRKAAAQQLG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.124    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0380    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 8
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+8 unnamed protein product                                             32.0       3e-08
+
+
+>8 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   IISEEERKTRSAPFF  15
+           IISEEERKTRSAPFF
+Sbjct  1   IISEEERKTRSAPFF  15
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 8
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0407    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 9
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+9 unnamed protein product                                             33.9       5e-09
+60 unnamed protein product                                            22.3       1e-04
+
+
+>9 unnamed protein product
+Length=15
+
+ Score = 33.9 bits (76),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   YKFMFDEKLVTVWSA  15
+           YKFMFDEKLVTVWSA
+Sbjct  1   YKFMFDEKLVTVWSA  15
+
+
+>60 unnamed protein product
+Length=15
+
+ Score = 22.3 bits (46),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  1   YKFMFDEKL  9
+           YKFMFDEKL
+Sbjct  7   YKFMFDEKL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.135    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 9
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+9 unnamed protein product                                             22.7       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>9 unnamed protein product
+Length=15
+
+ Score = 22.7 bits (47),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   YKFMFDEKLVTVWSA  15
+           YKFMFDEKLVTVWSA
+Sbjct  1   YKFMFDEKLVTVWSA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.141    0.522    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 10
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+10 unnamed protein product                                            29.3       3e-07
+
+
+>10 unnamed protein product
+Length=15
+
+ Score = 29.3 bits (64),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VAQELEEKLNILNNN  15
+           VAQELEEKLNILNNN
+Sbjct  1   VAQELEEKLNILNNN  15
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.124    0.297    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 10
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+10 unnamed protein product                                            20.5       9e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>10 unnamed protein product
+Length=15
+
+ Score = 20.5 bits (41),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VAQELEEKLNILNNN  15
+           VAQELEEKLNILNNN
+Sbjct  1   VAQELEEKLNILNNN  15
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.126    0.322    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0387    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 11
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+11 unnamed protein product                                            30.4       1e-07
+
+
+>11 unnamed protein product
+Length=15
+
+ Score = 30.4 bits (67),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AKRLQEEKEKVDKQY  15
+           AKRLQEEKEKVDKQY
+Sbjct  1   AKRLQEEKEKVDKQY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.299    0.120    0.291    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 11
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+11 unnamed protein product                                            20.9       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>11 unnamed protein product
+Length=15
+
+ Score = 20.9 bits (42),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AKRLQEEKEKVDKQY  15
+           AKRLQEEKEKVDKQY
+Sbjct  1   AKRLQEEKEKVDKQY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.126    0.311    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0386    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 12
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+12 unnamed protein product                                            31.6       4e-08
+
+
+>12 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NILNNNYKILQADQE  15
+           NILNNNYKILQADQE
+Sbjct  1   NILNNNYKILQADQE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.129    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 12
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+12 unnamed protein product                                            20.8       6e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>12 unnamed protein product
+Length=15
+
+ Score = 20.8 bits (42),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NILNNNYKILQADQE  15
+           NILNNNYKILQADQE
+Sbjct  1   NILNNNYKILQADQE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0403    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 13
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+13 unnamed protein product                                            32.0       2e-08
+17 unnamed protein product                                            25.0       1e-05
+
+
+>13 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   HSPSPSSKFSTKGLC  15
+           HSPSPSSKFSTKGLC
+Sbjct  1   HSPSPSSKFSTKGLC  15
+
+
+>17 unnamed protein product
+Length=15
+
+ Score = 25.0 bits (53),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 11/11 (100%), Positives = 11/11 (100%), Gaps = 0/11 (0%)
+
+Query  5   PSSKFSTKGLC  15
+           PSSKFSTKGLC
+Sbjct  1   PSSKFSTKGLC  11
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.121    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 13
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+13 unnamed protein product                                            22.1       2e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>13 unnamed protein product
+Length=15
+
+ Score = 22.1 bits (45),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   HSPSPSSKFSTKGLC  15
+           HSPSPSSKFSTKGLC
+Sbjct  1   HSPSPSSKFSTKGLC  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.122    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0373    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 14
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+14 unnamed protein product                                            32.7       1e-08
+
+
+>14 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GLNDFIQKIANNSYA  15
+           GLNDFIQKIANNSYA
+Sbjct  1   GLNDFIQKIANNSYA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 14
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+14 unnamed protein product                                            23.9       3e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>14 unnamed protein product
+Length=15
+
+ Score = 23.9 bits (50),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GLNDFIQKIANNSYA  15
+           GLNDFIQKIANNSYA
+Sbjct  1   GLNDFIQKIANNSYA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0412    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 15
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+15 unnamed protein product                                            32.0       2e-08
+
+
+>15 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VYDKGCVKDVDEGLE  15
+           VYDKGCVKDVDEGLE
+Sbjct  1   VYDKGCVKDVDEGLE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.145    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 15
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+15 unnamed protein product                                            23.4       6e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>15 unnamed protein product
+Length=15
+
+ Score = 23.4 bits (49),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VYDKGCVKDVDEGLE  15
+           VYDKGCVKDVDEGLE
+Sbjct  1   VYDKGCVKDVDEGLE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.146    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0447    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 16
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+16 unnamed protein product                                            34.3       3e-09
+
+
+>16 unnamed protein product
+Length=15
+
+ Score = 34.3 bits (77),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VRFLSDRKNPVCREM  15
+           VRFLSDRKNPVCREM
+Sbjct  1   VRFLSDRKNPVCREM  15
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.141    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 16
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+16 unnamed protein product                                            24.9       2e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>16 unnamed protein product
+Length=15
+
+ Score = 24.9 bits (53),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VRFLSDRKNPVCREM  15
+           VRFLSDRKNPVCREM
+Sbjct  1   VRFLSDRKNPVCREM  15
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.140    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0427    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 17
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+17 unnamed protein product                                            30.8       9e-08
+13 unnamed protein product                                            25.0       1e-05
+
+
+>17 unnamed protein product
+Length=15
+
+ Score = 30.8 bits (68),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PSSKFSTKGLCKKKL  15
+           PSSKFSTKGLCKKKL
+Sbjct  1   PSSKFSTKGLCKKKL  15
+
+
+>13 unnamed protein product
+Length=15
+
+ Score = 25.0 bits (53),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 11/11 (100%), Positives = 11/11 (100%), Gaps = 0/11 (0%)
+
+Query  1   PSSKFSTKGLC  11
+           PSSKFSTKGLC
+Sbjct  5   PSSKFSTKGLC  15
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.126    0.364    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 17
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+17 unnamed protein product                                            20.5       8e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>17 unnamed protein product
+Length=15
+
+ Score = 20.5 bits (41),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PSSKFSTKGLCKKKL  15
+           PSSKFSTKGLCKKKL
+Sbjct  1   PSSKFSTKGLCKKKL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.131    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0402    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 18
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+18 unnamed protein product                                            32.3       2e-08
+89 unnamed protein product                                            26.6       3e-06
+
+
+>18 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   QNLLHSEKRDKKSPL  15
+           QNLLHSEKRDKKSPL
+Sbjct  1   QNLLHSEKRDKKSPL  15
+
+
+>89 unnamed protein product
+Length=15
+
+ Score = 26.6 bits (57),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  4   LHSEKRDKKSPL  15
+           LHSEKRDKKSPL
+Sbjct  1   LHSEKRDKKSPL  12
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.124    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 18
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+18 unnamed protein product                                            21.3       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>18 unnamed protein product
+Length=15
+
+ Score = 21.3 bits (43),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   QNLLHSEKRDKKSPL  15
+           QNLLHSEKRDKKSPL
+Sbjct  1   QNLLHSEKRDKKSPL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.128    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 19
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+19 unnamed protein product                                            32.0       3e-08
+
+
+>19 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   EQLEECRKSDAEQYL  15
+           EQLEECRKSDAEQYL
+Sbjct  1   EQLEECRKSDAEQYL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.124    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 19
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+19 unnamed protein product                                            21.7       3e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>19 unnamed protein product
+Length=15
+
+ Score = 21.7 bits (44),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   EQLEECRKSDAEQYL  15
+           EQLEECRKSDAEQYL
+Sbjct  1   EQLEECRKSDAEQYL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.130    0.356    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0398    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 20
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+20 unnamed protein product                                            32.0       3e-08
+
+
+>20 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LKEFPRLKSELEDNI  15
+           LKEFPRLKSELEDNI
+Sbjct  1   LKEFPRLKSELEDNI  15
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.138    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 20
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+20 unnamed protein product                                            21.9       2e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>20 unnamed protein product
+Length=15
+
+ Score = 21.9 bits (45),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LKEFPRLKSELEDNI  15
+           LKEFPRLKSELEDNI
+Sbjct  1   LKEFPRLKSELEDNI  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.141    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0433    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 21
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+21 unnamed protein product                                            33.9       4e-09
+
+
+>21 unnamed protein product
+Length=15
+
+ Score = 33.9 bits (76),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VQDFQEDKELFRYCT  15
+           VQDFQEDKELFRYCT
+Sbjct  1   VQDFQEDKELFRYCT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.142    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 21
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+21 unnamed protein product                                            21.5       4e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>21 unnamed protein product
+Length=15
+
+ Score = 21.5 bits (44),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VQDFQEDKELFRYCT  15
+           VQDFQEDKELFRYCT
+Sbjct  1   VQDFQEDKELFRYCT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.145    0.469    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0445    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 22
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+22 unnamed protein product                                            30.8       8e-08
+
+
+>22 unnamed protein product
+Length=15
+
+ Score = 30.8 bits (68),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   WAQGAGAKGYLGAVK  15
+           WAQGAGAKGYLGAVK
+Sbjct  1   WAQGAGAKGYLGAVK  15
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.134    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 22
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+22 unnamed protein product                                            20.8       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>22 unnamed protein product
+Length=15
+
+ Score = 20.8 bits (42),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   WAQGAGAKGYLGAVK  15
+           WAQGAGAKGYLGAVK
+Sbjct  1   WAQGAGAKGYLGAVK  15
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.133    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 23
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+23 unnamed protein product                                            31.2       5e-08
+
+
+>23 unnamed protein product
+Length=15
+
+ Score = 31.2 bits (69),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NQSQKTFKNKETLII  15
+           NQSQKTFKNKETLII
+Sbjct  1   NQSQKTFKNKETLII  15
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.121    0.298    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 23
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.127    0.316    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0388    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 24
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+24 unnamed protein product                                            32.7       1e-08
+
+
+>24 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   CEVKQIAKAINERYL  15
+           CEVKQIAKAINERYL
+Sbjct  1   CEVKQIAKAINERYL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 24
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+24 unnamed protein product                                            23.5       6e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>24 unnamed protein product
+Length=15
+
+ Score = 23.5 bits (49),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   CEVKQIAKAINERYL  15
+           CEVKQIAKAINERYL
+Sbjct  1   CEVKQIAKAINERYL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.144    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0441    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 25
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+25 unnamed protein product                                            32.0       3e-08
+
+
+>25 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   TGEGLERKDASLLDN  15
+           TGEGLERKDASLLDN
+Sbjct  1   TGEGLERKDASLLDN  15
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.130    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 25
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+25 unnamed protein product                                            23.5       5e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>25 unnamed protein product
+Length=15
+
+ Score = 23.5 bits (49),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   TGEGLERKDASLLDN  15
+           TGEGLERKDASLLDN
+Sbjct  1   TGEGLERKDASLLDN  15
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0411    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 26
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+26 unnamed protein product                                            29.6       2e-07
+47 unnamed protein product                                            28.1       9e-07
+
+
+>26 unnamed protein product
+Length=15
+
+ Score = 29.6 bits (65),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VLNAVLQKKKDIKFK  15
+           VLNAVLQKKKDIKFK
+Sbjct  1   VLNAVLQKKKDIKFK  15
+
+
+>47 unnamed protein product
+Length=15
+
+ Score = 28.1 bits (61),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  2   LNAVLQKKKDIKFK  15
+           LNAVLQKKKDIKFK
+Sbjct  1   LNAVLQKKKDIKFK  14
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 26
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.152    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0466    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 27
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+27 unnamed protein product                                            31.2       5e-08
+
+
+>27 unnamed protein product
+Length=15
+
+ Score = 31.2 bits (69),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   INVWDVLKGSRVSIL  15
+           INVWDVLKGSRVSIL
+Sbjct  1   INVWDVLKGSRVSIL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.141    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 27
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+27 unnamed protein product                                            23.0       9e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>27 unnamed protein product
+Length=15
+
+ Score = 23.0 bits (48),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   INVWDVLKGSRVSIL  15
+           INVWDVLKGSRVSIL
+Sbjct  1   INVWDVLKGSRVSIL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.153    0.527    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0468    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 28
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+28 unnamed protein product                                            33.1       1e-08
+
+
+>28 unnamed protein product
+Length=15
+
+ Score = 33.1 bits (74),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AKSHPPDKWAQGAGA  15
+           AKSHPPDKWAQGAGA
+Sbjct  1   AKSHPPDKWAQGAGA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.124    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 28
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+28 unnamed protein product                                            22.8       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>28 unnamed protein product
+Length=15
+
+ Score = 22.8 bits (47),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AKSHPPDKWAQGAGA  15
+           AKSHPPDKWAQGAGA
+Sbjct  1   AKSHPPDKWAQGAGA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.129    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0395    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 29
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+29 unnamed protein product                                            34.3       3e-09
+
+
+>29 unnamed protein product
+Length=15
+
+ Score = 34.3 bits (77),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NFTEDCPKSLLIPYL  15
+           NFTEDCPKSLLIPYL
+Sbjct  1   NFTEDCPKSLLIPYL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.146    0.475    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 29
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+29 unnamed protein product                                            27.6       1e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>29 unnamed protein product
+Length=15
+
+ Score = 27.6 bits (60),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NFTEDCPKSLLIPYL  15
+           NFTEDCPKSLLIPYL
+Sbjct  1   NFTEDCPKSLLIPYL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.149    0.490    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0455    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 30
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+30 unnamed protein product                                            31.6       4e-08
+0 unnamed protein product                                             29.6       2e-07
+
+
+>30 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LGTRRMAKKNAIVRS  15
+           LGTRRMAKKNAIVRS
+Sbjct  1   LGTRRMAKKNAIVRS  15
+
+
+>0 unnamed protein product
+Length=15
+
+ Score = 29.6 bits (65),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  2   GTRRMAKKNAIVRS  15
+           GTRRMAKKNAIVRS
+Sbjct  1   GTRRMAKKNAIVRS  14
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.129    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 30
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.129    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0394    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 31
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+31 unnamed protein product                                            33.1       8e-09
+
+
+>31 unnamed protein product
+Length=15
+
+ Score = 33.1 bits (74),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SVVWQKIKATVFDDC  15
+           SVVWQKIKATVFDDC
+Sbjct  1   SVVWQKIKATVFDDC  15
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.133    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 31
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+31 unnamed protein product                                            24.3       3e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>31 unnamed protein product
+Length=15
+
+ Score = 24.3 bits (51),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SVVWQKIKATVFDDC  15
+           SVVWQKIKATVFDDC
+Sbjct  1   SVVWQKIKATVFDDC  15
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.137    0.524    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 32
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+32 unnamed protein product                                            33.5       8e-09
+
+
+>32 unnamed protein product
+Length=15
+
+ Score = 33.5 bits (75),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PDPSETPKIETDHWP  15
+           PDPSETPKIETDHWP
+Sbjct  1   PDPSETPKIETDHWP  15
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.133    0.471    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 32
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+32 unnamed protein product                                            24.3       2e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>32 unnamed protein product
+Length=15
+
+ Score = 24.3 bits (51),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PDPSETPKIETDHWP  15
+           PDPSETPKIETDHWP
+Sbjct  1   PDPSETPKIETDHWP  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.139    0.482    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 33
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+33 unnamed protein product                                            32.0       3e-08
+64 unnamed protein product                                            28.5       6e-07
+
+
+>33 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NFFSSFLKEKLNDTY  15
+           NFFSSFLKEKLNDTY
+Sbjct  1   NFFSSFLKEKLNDTY  15
+
+
+>64 unnamed protein product
+Length=15
+
+ Score = 28.5 bits (62),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 13/13 (100%), Positives = 13/13 (100%), Gaps = 0/13 (0%)
+
+Query  3   FSSFLKEKLNDTY  15
+           FSSFLKEKLNDTY
+Sbjct  1   FSSFLKEKLNDTY  13
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 33
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+33 unnamed protein product                                            20.4       0.001
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>33 unnamed protein product
+Length=15
+
+ Score = 20.4 bits (41),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NFFSSFLKEKLNDTY  15
+           NFFSSFLKEKLNDTY
+Sbjct  1   NFFSSFLKEKLNDTY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.142    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0436    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 34
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+34 unnamed protein product                                            32.0       3e-08
+
+
+>34 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   QTRELKLKYLIIENF  15
+           QTRELKLKYLIIENF
+Sbjct  1   QTRELKLKYLIIENF  15
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.145    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 34
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.157    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0481    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 35
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+35 unnamed protein product                                            33.1       8e-09
+
+
+>35 unnamed protein product
+Length=15
+
+ Score = 33.1 bits (74),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   EQIQILAKYSAADCP  15
+           EQIQILAKYSAADCP
+Sbjct  1   EQIQILAKYSAADCP  15
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 35
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+35 unnamed protein product                                            24.3       3e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>35 unnamed protein product
+Length=15
+
+ Score = 24.3 bits (51),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   EQIQILAKYSAADCP  15
+           EQIQILAKYSAADCP
+Sbjct  1   EQIQILAKYSAADCP  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.130    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 36
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+36 unnamed protein product                                            32.0       3e-08
+
+
+>36 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SKCDSHLKHSLKLSW  15
+           SKCDSHLKHSLKLSW
+Sbjct  1   SKCDSHLKHSLKLSW  15
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.124    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 36
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+36 unnamed protein product                                            21.7       3e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>36 unnamed protein product
+Length=15
+
+ Score = 21.7 bits (44),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SKCDSHLKHSLKLSW  15
+           SKCDSHLKHSLKLSW
+Sbjct  1   SKCDSHLKHSLKLSW  15
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.123    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0377    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 37
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+37 unnamed protein product                                            35.4       1e-09
+78 unnamed protein product                                            21.9       2e-04
+
+
+>37 unnamed protein product
+Length=15
+
+ Score = 35.4 bits (80),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   EKILPQLKCHFTWNL  15
+           EKILPQLKCHFTWNL
+Sbjct  1   EKILPQLKCHFTWNL  15
+
+
+>78 unnamed protein product
+Length=15
+
+ Score = 21.9 bits (45),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  1   EKILPQLKC  9
+           EKILPQLKC
+Sbjct  7   EKILPQLKC  15
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.142    0.535    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 37
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+37 unnamed protein product                                            27.6       1e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>37 unnamed protein product
+Length=15
+
+ Score = 27.6 bits (60),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   EKILPQLKCHFTWNL  15
+           EKILPQLKCHFTWNL
+Sbjct  1   EKILPQLKCHFTWNL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.144    0.601    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0441    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 38
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+38 unnamed protein product                                            33.1       9e-09
+
+
+>38 unnamed protein product
+Length=15
+
+ Score = 33.1 bits (74),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KIPYSFFKTALDDRK  15
+           KIPYSFFKTALDDRK
+Sbjct  1   KIPYSFFKTALDDRK  15
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 38
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+38 unnamed protein product                                            23.0       8e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>38 unnamed protein product
+Length=15
+
+ Score = 23.0 bits (48),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KIPYSFFKTALDDRK  15
+           KIPYSFFKTALDDRK
+Sbjct  1   KIPYSFFKTALDDRK  15
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.145    0.463    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0443    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 39
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+39 unnamed protein product                                            33.1       1e-08
+98 unnamed protein product                                            30.8       7e-08
+
+
+>39 unnamed protein product
+Length=15
+
+ Score = 33.1 bits (74),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AHSLLYKKVNEAQYR  15
+           AHSLLYKKVNEAQYR
+Sbjct  1   AHSLLYKKVNEAQYR  15
+
+
+>98 unnamed protein product
+Length=15
+
+ Score = 30.8 bits (68),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1   AHSLLYKKVNEAQY  14
+           AHSLLYKKVNEAQY
+Sbjct  2   AHSLLYKKVNEAQY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.126    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 39
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+98 unnamed protein product                                            21.3       4e-04
+39 unnamed protein product                                            20.5       9e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>98 unnamed protein product
+Length=15
+
+ Score = 21.3 bits (43),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1   AHSLLYKKVNEAQY  14
+           AHSLLYKKVNEAQY
+Sbjct  2   AHSLLYKKVNEAQY  15
+
+
+>39 unnamed protein product
+Length=15
+
+ Score = 20.5 bits (41),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AHSLLYKKVNEAQYR  15
+           AHSLLYKKVNEAQYR
+Sbjct  1   AHSLLYKKVNEAQYR  15
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.129    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0394    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 40
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+40 unnamed protein product                                            32.3       2e-08
+
+
+>40 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PARSATPKVRLVEPH  15
+           PARSATPKVRLVEPH
+Sbjct  1   PARSATPKVRLVEPH  15
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.128    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 40
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+40 unnamed protein product                                            21.2       4e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>40 unnamed protein product
+Length=15
+
+ Score = 21.2 bits (43),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PARSATPKVRLVEPH  15
+           PARSATPKVRLVEPH
+Sbjct  1   PARSATPKVRLVEPH  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0396    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 41
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+41 unnamed protein product                                            33.5       7e-09
+
+
+>41 unnamed protein product
+Length=15
+
+ Score = 33.5 bits (75),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LLTVCFVKRNRGGKY  15
+           LLTVCFVKRNRGGKY
+Sbjct  1   LLTVCFVKRNRGGKY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.151    0.487    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 41
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+41 unnamed protein product                                            25.2       1e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>41 unnamed protein product
+Length=15
+
+ Score = 25.2 bits (54),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LLTVCFVKRNRGGKY  15
+           LLTVCFVKRNRGGKY
+Sbjct  1   LLTVCFVKRNRGGKY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.158    0.571    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0483    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 42
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+42 unnamed protein product                                            29.6       2e-07
+
+
+>42 unnamed protein product
+Length=15
+
+ Score = 29.6 bits (65),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LVQRTIAKQIQMVKQ  15
+           LVQRTIAKQIQMVKQ
+Sbjct  1   LVQRTIAKQIQMVKQ  15
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.130    0.306    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 42
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.134    0.326    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 43
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+43 unnamed protein product                                            32.0       3e-08
+
+
+>43 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ALDLSQHKGVAVRRV  15
+           ALDLSQHKGVAVRRV
+Sbjct  1   ALDLSQHKGVAVRRV  15
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.134    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 43
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+43 unnamed protein product                                            22.7       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>43 unnamed protein product
+Length=15
+
+ Score = 22.7 bits (47),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ALDLSQHKGVAVRRV  15
+           ALDLSQHKGVAVRRV
+Sbjct  1   ALDLSQHKGVAVRRV  15
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.147    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0451    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 44
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+44 unnamed protein product                                            29.3       3e-07
+
+
+>44 unnamed protein product
+Length=15
+
+ Score = 29.3 bits (64),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   DPSISFSKPKKKKSF  15
+           DPSISFSKPKKKKSF
+Sbjct  1   DPSISFSKPKKKKSF  15
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.124    0.342    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 44
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+44 unnamed protein product                                            20.9       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>44 unnamed protein product
+Length=15
+
+ Score = 20.9 bits (42),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   DPSISFSKPKKKKSF  15
+           DPSISFSKPKKKKSF
+Sbjct  1   DPSISFSKPKKKKSF  15
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.131    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0401    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 45
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+45 unnamed protein product                                            31.6       3e-08
+
+
+>45 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   RIAKRGRKLVDYDSA  15
+           RIAKRGRKLVDYDSA
+Sbjct  1   RIAKRGRKLVDYDSA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 45
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 46
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+46 unnamed protein product                                            27.3       2e-06
+
+
+>46 unnamed protein product
+Length=15
+
+ Score = 27.3 bits (59),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PKKKKKQKPQEVPQE  15
+           PKKKKKQKPQEVPQE
+Sbjct  1   PKKKKKQKPQEVPQE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.292    0.117    0.315    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 46
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+46 unnamed protein product                                            22.9       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>46 unnamed protein product
+Length=15
+
+ Score = 22.9 bits (47),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PKKKKKQKPQEVPQE  15
+           PKKKKKQKPQEVPQE
+Sbjct  1   PKKKKKQKPQEVPQE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.119    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0365    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 47
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+47 unnamed protein product                                            29.3       3e-07
+26 unnamed protein product                                            28.1       9e-07
+
+
+>47 unnamed protein product
+Length=15
+
+ Score = 29.3 bits (64),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LNAVLQKKKDIKFKK  15
+           LNAVLQKKKDIKFKK
+Sbjct  1   LNAVLQKKKDIKFKK  15
+
+
+>26 unnamed protein product
+Length=15
+
+ Score = 28.1 bits (61),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1   LNAVLQKKKDIKFK  14
+           LNAVLQKKKDIKFK
+Sbjct  2   LNAVLQKKKDIKFK  15
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.337    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 47
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.349    0.146    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0447    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 48
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+48 unnamed protein product                                            35.0       2e-09
+
+
+>48 unnamed protein product
+Length=15
+
+ Score = 35.0 bits (79),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   QNLWDAFKAVCRGKF  15
+           QNLWDAFKAVCRGKF
+Sbjct  1   QNLWDAFKAVCRGKF  15
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.141    0.530    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 48
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+48 unnamed protein product                                            27.6       1e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>48 unnamed protein product
+Length=15
+
+ Score = 27.6 bits (60),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   QNLWDAFKAVCRGKF  15
+           QNLWDAFKAVCRGKF
+Sbjct  1   QNLWDAFKAVCRGKF  15
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.149    0.616    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0457    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 49
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+49 unnamed protein product                                            31.2       6e-08
+
+
+>49 unnamed protein product
+Length=15
+
+ Score = 31.2 bits (69),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LVNAQQAKGSSVHVL  15
+           LVNAQQAKGSSVHVL
+Sbjct  1   LVNAQQAKGSSVHVL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.120    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 49
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.122    0.310    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0373    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 50
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+50 unnamed protein product                                            32.7       1e-08
+54 unnamed protein product                                            25.0       2e-05
+
+
+>50 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   HLGCFKCKSCGKVLT  15
+           HLGCFKCKSCGKVLT
+Sbjct  1   HLGCFKCKSCGKVLT  15
+
+
+>54 unnamed protein product
+Length=15
+
+ Score = 25.0 bits (53),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 11/11 (100%), Positives = 11/11 (100%), Gaps = 0/11 (0%)
+
+Query  5   FKCKSCGKVLT  15
+           FKCKSCGKVLT
+Sbjct  1   FKCKSCGKVLT  11
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.145    0.553    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 50
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+50 unnamed protein product                                            21.4       4e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>50 unnamed protein product
+Length=15
+
+ Score = 21.4 bits (44),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   HLGCFKCKSCGKVLT  15
+           HLGCFKCKSCGKVLT
+Sbjct  1   HLGCFKCKSCGKVLT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.149    0.619    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0457    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 51
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+51 unnamed protein product                                            30.8       8e-08
+
+
+>51 unnamed protein product
+Length=15
+
+ Score = 30.8 bits (68),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KTALDDRKEGAVLAK  15
+           KTALDDRKEGAVLAK
+Sbjct  1   KTALDDRKEGAVLAK  15
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.126    0.318    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 51
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.131    0.336    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0401    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 52
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+52 unnamed protein product                                            29.6       2e-07
+
+
+>52 unnamed protein product
+Length=15
+
+ Score = 29.6 bits (65),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PGGSMGLKNGAGNGA  15
+           PGGSMGLKNGAGNGA
+Sbjct  1   PGGSMGLKNGAGNGA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.136    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 52
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+52 unnamed protein product                                            21.5       3e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>52 unnamed protein product
+Length=15
+
+ Score = 21.5 bits (44),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PGGSMGLKNGAGNGA  15
+           PGGSMGLKNGAGNGA
+Sbjct  1   PGGSMGLKNGAGNGA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.136    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0416    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 53
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+53 unnamed protein product                                            33.1       1e-08
+
+
+>53 unnamed protein product
+Length=15
+
+ Score = 33.1 bits (74),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ELCEVIGKGPFSVVR  15
+           ELCEVIGKGPFSVVR
+Sbjct  1   ELCEVIGKGPFSVVR  15
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.148    0.457    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 53
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+53 unnamed protein product                                            28.0       9e-07
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>53 unnamed protein product
+Length=15
+
+ Score = 28.0 bits (61),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ELCEVIGKGPFSVVR  15
+           ELCEVIGKGPFSVVR
+Sbjct  1   ELCEVIGKGPFSVVR  15
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.153    0.524    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0469    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 54
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+54 unnamed protein product                                            33.1       8e-09
+50 unnamed protein product                                            25.0       2e-05
+
+
+>54 unnamed protein product
+Length=15
+
+ Score = 33.1 bits (74),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   FKCKSCGKVLTGEYI  15
+           FKCKSCGKVLTGEYI
+Sbjct  1   FKCKSCGKVLTGEYI  15
+
+
+>50 unnamed protein product
+Length=15
+
+ Score = 25.0 bits (53),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 11/11 (100%), Positives = 11/11 (100%), Gaps = 0/11 (0%)
+
+Query  1   FKCKSCGKVLT  11
+           FKCKSCGKVLT
+Sbjct  5   FKCKSCGKVLT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.144    0.483    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 54
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+54 unnamed protein product                                            23.8       4e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>54 unnamed protein product
+Length=15
+
+ Score = 23.8 bits (50),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   FKCKSCGKVLTGEYI  15
+           FKCKSCGKVLTGEYI
+Sbjct  1   FKCKSCGKVLTGEYI  15
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.150    0.550    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0458    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 55
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+55 unnamed protein product                                            32.0       3e-08
+
+
+>55 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NKEKKSAKDALLLWC  15
+           NKEKKSAKDALLLWC
+Sbjct  1   NKEKKSAKDALLLWC  15
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.126    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 55
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+55 unnamed protein product                                            20.9       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>55 unnamed protein product
+Length=15
+
+ Score = 20.9 bits (42),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NKEKKSAKDALLLWC  15
+           NKEKKSAKDALLLWC
+Sbjct  1   NKEKKSAKDALLLWC  15
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.125    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 56
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+56 unnamed protein product                                            32.0       3e-08
+
+
+>56 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AFQGAVQKELQHIVG  15
+           AFQGAVQKELQHIVG
+Sbjct  1   AFQGAVQKELQHIVG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 56
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+56 unnamed protein product                                            20.8       6e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>56 unnamed protein product
+Length=15
+
+ Score = 20.8 bits (42),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AFQGAVQKELQHIVG  15
+           AFQGAVQKELQHIVG
+Sbjct  1   AFQGAVQKELQHIVG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.143    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0437    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 57
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+57 unnamed protein product                                            32.7       1e-08
+
+
+>57 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   IVEFEGNKEEPGRWE  15
+           IVEFEGNKEEPGRWE
+Sbjct  1   IVEFEGNKEEPGRWE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.139    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 57
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+57 unnamed protein product                                            22.7       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>57 unnamed protein product
+Length=15
+
+ Score = 22.7 bits (47),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   IVEFEGNKEEPGRWE  15
+           IVEFEGNKEEPGRWE
+Sbjct  1   IVEFEGNKEEPGRWE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.143    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0438    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 58
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+58 unnamed protein product                                            34.7       2e-09
+
+
+>58 unnamed protein product
+Length=15
+
+ Score = 34.7 bits (78),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GQHSKPFKEFVEACL  15
+           GQHSKPFKEFVEACL
+Sbjct  1   GQHSKPFKEFVEACL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.444    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 58
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+58 unnamed protein product                                            28.1       8e-07
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>58 unnamed protein product
+Length=15
+
+ Score = 28.1 bits (61),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GQHSKPFKEFVEACL  15
+           GQHSKPFKEFVEACL
+Sbjct  1   GQHSKPFKEFVEACL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.141    0.481    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 59
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+59 unnamed protein product                                            31.6       4e-08
+
+
+>59 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KSSYNLDKSVHITKL  15
+           KSSYNLDKSVHITKL
+Sbjct  1   KSSYNLDKSVHITKL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.122    0.316    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 59
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+59 unnamed protein product                                            20.5       8e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>59 unnamed protein product
+Length=15
+
+ Score = 20.5 bits (41),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KSSYNLDKSVHITKL  15
+           KSSYNLDKSVHITKL
+Sbjct  1   KSSYNLDKSVHITKL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.127    0.336    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0388    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 60
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+60 unnamed protein product                                            33.9       5e-09
+9 unnamed protein product                                             22.3       1e-04
+
+
+>60 unnamed protein product
+Length=15
+
+ Score = 33.9 bits (76),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   QLVHEGYKFMFDEKL  15
+           QLVHEGYKFMFDEKL
+Sbjct  1   QLVHEGYKFMFDEKL  15
+
+
+>9 unnamed protein product
+Length=15
+
+ Score = 22.3 bits (46),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  7   YKFMFDEKL  15
+           YKFMFDEKL
+Sbjct  1   YKFMFDEKL  9
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.147    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 60
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+60 unnamed protein product                                            22.2       2e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>60 unnamed protein product
+Length=15
+
+ Score = 22.2 bits (46),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   QLVHEGYKFMFDEKL  15
+           QLVHEGYKFMFDEKL
+Sbjct  1   QLVHEGYKFMFDEKL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.153    0.488    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0469    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 61
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+61 unnamed protein product                                            31.2       5e-08
+
+
+>61 unnamed protein product
+Length=15
+
+ Score = 31.2 bits (69),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GTQGAISKETKKKYY  15
+           GTQGAISKETKKKYY
+Sbjct  1   GTQGAISKETKKKYY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.121    0.322    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 61
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+61 unnamed protein product                                            20.9       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>61 unnamed protein product
+Length=15
+
+ Score = 20.9 bits (42),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GTQGAISKETKKKYY  15
+           GTQGAISKETKKKYY
+Sbjct  1   GTQGAISKETKKKYY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.127    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0388    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 62
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+62 unnamed protein product                                            32.3       2e-08
+
+
+>62 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   MINAMDSKIRSLEQR  15
+           MINAMDSKIRSLEQR
+Sbjct  1   MINAMDSKIRSLEQR  15
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.126    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 62
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.126    0.305    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0387    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 63
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+63 unnamed protein product                                            32.3       2e-08
+
+
+>63 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   RISQGPYKGYIGVVK  15
+           RISQGPYKGYIGVVK
+Sbjct  1   RISQGPYKGYIGVVK  15
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.148    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 63
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+63 unnamed protein product                                            23.3       6e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>63 unnamed protein product
+Length=15
+
+ Score = 23.3 bits (49),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   RISQGPYKGYIGVVK  15
+           RISQGPYKGYIGVVK
+Sbjct  1   RISQGPYKGYIGVVK  15
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.148    0.444    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0453    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 64
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+64 unnamed protein product                                            32.3       2e-08
+33 unnamed protein product                                            28.5       6e-07
+
+
+>64 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   FSSFLKEKLNDTYVN  15
+           FSSFLKEKLNDTYVN
+Sbjct  1   FSSFLKEKLNDTYVN  15
+
+
+>33 unnamed protein product
+Length=15
+
+ Score = 28.5 bits (62),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 13/13 (100%), Positives = 13/13 (100%), Gaps = 0/13 (0%)
+
+Query  1   FSSFLKEKLNDTY  13
+           FSSFLKEKLNDTY
+Sbjct  3   FSSFLKEKLNDTY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 64
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+64 unnamed protein product                                            22.0       2e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>64 unnamed protein product
+Length=15
+
+ Score = 22.0 bits (45),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   FSSFLKEKLNDTYVN  15
+           FSSFLKEKLNDTYVN
+Sbjct  1   FSSFLKEKLNDTYVN  15
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.135    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0412    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 65
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+65 unnamed protein product                                            30.8       8e-08
+
+
+>65 unnamed protein product
+Length=15
+
+ Score = 30.8 bits (68),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   IVSCPYVKTVATTKT  15
+           IVSCPYVKTVATTKT
+Sbjct  1   IVSCPYVKTVATTKT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.123    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 65
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.125    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 66
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+66 unnamed protein product                                            35.0       2e-09
+
+
+>66 unnamed protein product
+Length=15
+
+ Score = 35.0 bits (79),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KWEGGVNKMFHGIQD  15
+           KWEGGVNKMFHGIQD
+Sbjct  1   KWEGGVNKMFHGIQD  15
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.142    0.499    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 66
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+66 unnamed protein product                                            26.9       2e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>66 unnamed protein product
+Length=15
+
+ Score = 26.9 bits (58),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KWEGGVNKMFHGIQD  15
+           KWEGGVNKMFHGIQD
+Sbjct  1   KWEGGVNKMFHGIQD  15
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.150    0.540    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0458    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 67
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+67 unnamed protein product                                            31.6       4e-08
+
+
+>67 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KGYIGVVKDATESTA  15
+           KGYIGVVKDATESTA
+Sbjct  1   KGYIGVVKDATESTA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.124    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 67
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+67 unnamed protein product                                            22.4       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>67 unnamed protein product
+Length=15
+
+ Score = 22.4 bits (46),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KGYIGVVKDATESTA  15
+           KGYIGVVKDATESTA
+Sbjct  1   KGYIGVVKDATESTA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.130    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 68
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+68 unnamed protein product                                            32.0       3e-08
+
+
+>68 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SHISESAKDLVRRML  15
+           SHISESAKDLVRRML
+Sbjct  1   SHISESAKDLVRRML  15
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.126    0.317    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 68
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+68 unnamed protein product                                            20.9       7e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>68 unnamed protein product
+Length=15
+
+ Score = 20.9 bits (42),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SHISESAKDLVRRML  15
+           SHISESAKDLVRRML
+Sbjct  1   SHISESAKDLVRRML  15
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.143    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0437    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 69
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+69 unnamed protein product                                            31.6       4e-08
+
+
+>69 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NEMKAEIKMFFETNE  15
+           NEMKAEIKMFFETNE
+Sbjct  1   NEMKAEIKMFFETNE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.125    0.320    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 69
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+69 unnamed protein product                                            20.9       6e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>69 unnamed protein product
+Length=15
+
+ Score = 20.9 bits (42),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   NEMKAEIKMFFETNE  15
+           NEMKAEIKMFFETNE
+Sbjct  1   NEMKAEIKMFFETNE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.128    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0392    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 70
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+70 unnamed protein product                                            32.0       3e-08
+
+
+>70 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ETHFQGDKESGGTGE  15
+           ETHFQGDKESGGTGE
+Sbjct  1   ETHFQGDKESGGTGE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.298    0.129    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 70
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+70 unnamed protein product                                            22.4       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>70 unnamed protein product
+Length=15
+
+ Score = 22.4 bits (46),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ETHFQGDKESGGTGE  15
+           ETHFQGDKESGGTGE
+Sbjct  1   ETHFQGDKESGGTGE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0415    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 71
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+71 unnamed protein product                                            32.7       1e-08
+
+
+>71 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KGKDDTWKWGTSFQG  15
+           KGKDDTWKWGTSFQG
+Sbjct  1   KGKDDTWKWGTSFQG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.135    0.508    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 71
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+71 unnamed protein product                                            23.1       7e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>71 unnamed protein product
+Length=15
+
+ Score = 23.1 bits (48),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KGKDDTWKWGTSFQG  15
+           KGKDDTWKWGTSFQG
+Sbjct  1   KGKDDTWKWGTSFQG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.134    0.506    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0411    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 72
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+72 unnamed protein product                                            32.3       2e-08
+
+
+>72 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GIIIQGGKHRENKVF  15
+           GIIIQGGKHRENKVF
+Sbjct  1   GIIIQGGKHRENKVF  15
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.150    0.444    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 72
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+72 unnamed protein product                                            23.3       5e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>72 unnamed protein product
+Length=15
+
+ Score = 23.3 bits (49),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GIIIQGGKHRENKVF  15
+           GIIIQGGKHRENKVF
+Sbjct  1   GIIIQGGKHRENKVF  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.160    0.502    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0491    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 73
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+73 unnamed protein product                                            32.7       1e-08
+
+
+>73 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GVIHRDVKPSNILLD  15
+           GVIHRDVKPSNILLD
+Sbjct  1   GVIHRDVKPSNILLD  15
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.147    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 73
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+73 unnamed protein product                                            27.6       2e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>73 unnamed protein product
+Length=15
+
+ Score = 27.6 bits (60),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GVIHRDVKPSNILLD  15
+           GVIHRDVKPSNILLD
+Sbjct  1   GVIHRDVKPSNILLD  15
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.148    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0452    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 74
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+74 unnamed protein product                                            32.7       1e-08
+
+
+>74 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SLNEGYAKYFDAATT  15
+           SLNEGYAKYFDAATT
+Sbjct  1   SLNEGYAKYFDAATT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.123    0.343    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 74
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+74 unnamed protein product                                            20.9       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>74 unnamed protein product
+Length=15
+
+ Score = 20.9 bits (42),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SLNEGYAKYFDAATT  15
+           SLNEGYAKYFDAATT
+Sbjct  1   SLNEGYAKYFDAATT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.128    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 75
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+75 unnamed protein product                                            32.7       1e-08
+
+
+>75 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KLKDIMQKESLYWLT  15
+           KLKDIMQKESLYWLT
+Sbjct  1   KLKDIMQKESLYWLT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 75
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+75 unnamed protein product                                            20.4       8e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>75 unnamed protein product
+Length=15
+
+ Score = 20.4 bits (41),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KLKDIMQKESLYWLT  15
+           KLKDIMQKESLYWLT
+Sbjct  1   KLKDIMQKESLYWLT  15
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.141    0.488    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 76
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+76 unnamed protein product                                            34.3       4e-09
+
+
+>76 unnamed protein product
+Length=15
+
+ Score = 34.3 bits (77),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SLAYHEWKMALFKPA  15
+           SLAYHEWKMALFKPA
+Sbjct  1   SLAYHEWKMALFKPA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.130    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 76
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+76 unnamed protein product                                            22.8       1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>76 unnamed protein product
+Length=15
+
+ Score = 22.8 bits (47),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SLAYHEWKMALFKPA  15
+           SLAYHEWKMALFKPA
+Sbjct  1   SLAYHEWKMALFKPA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.516    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 77
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+77 unnamed protein product                                            33.5       7e-09
+
+
+>77 unnamed protein product
+Length=15
+
+ Score = 33.5 bits (75),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   HCLENVDKALQFLKE  15
+           HCLENVDKALQFLKE
+Sbjct  1   HCLENVDKALQFLKE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 77
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+77 unnamed protein product                                            25.0       1e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>77 unnamed protein product
+Length=15
+
+ Score = 25.0 bits (53),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   HCLENVDKALQFLKE  15
+           HCLENVDKALQFLKE
+Sbjct  1   HCLENVDKALQFLKE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.148    0.493    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0453    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 78
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+78 unnamed protein product                                            32.3       2e-08
+37 unnamed protein product                                            21.9       2e-04
+
+
+>78 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VTKNSLEKILPQLKC  15
+           VTKNSLEKILPQLKC
+Sbjct  1   VTKNSLEKILPQLKC  15
+
+
+>37 unnamed protein product
+Length=15
+
+ Score = 21.9 bits (45),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  7   EKILPQLKC  15
+           EKILPQLKC
+Sbjct  1   EKILPQLKC  9
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 78
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+78 unnamed protein product                                            22.7       1e-04
+37 unnamed protein product                                            21.2       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>78 unnamed protein product
+Length=15
+
+ Score = 22.7 bits (47),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   VTKNSLEKILPQLKC  15
+           VTKNSLEKILPQLKC
+Sbjct  1   VTKNSLEKILPQLKC  15
+
+
+>37 unnamed protein product
+Length=15
+
+ Score = 21.2 bits (43),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  7   EKILPQLKC  15
+           EKILPQLKC
+Sbjct  1   EKILPQLKC  9
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.135    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 79
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+79 unnamed protein product                                            32.0       2e-08
+
+
+>79 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   EPITPHSKPILVRAV  15
+           EPITPHSKPILVRAV
+Sbjct  1   EPITPHSKPILVRAV  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 79
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+79 unnamed protein product                                            20.4       7e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>79 unnamed protein product
+Length=15
+
+ Score = 20.4 bits (41),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   EPITPHSKPILVRAV  15
+           EPITPHSKPILVRAV
+Sbjct  1   EPITPHSKPILVRAV  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 80
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+80 unnamed protein product                                            27.7       1e-06
+
+
+>80 unnamed protein product
+Length=15
+
+ Score = 27.7 bits (60),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ETAEELKKVAQELEE  15
+           ETAEELKKVAQELEE
+Sbjct  1   ETAEELKKVAQELEE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.284    0.109    0.236    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 80
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+80 unnamed protein product                                            20.7       6e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>80 unnamed protein product
+Length=15
+
+ Score = 20.7 bits (41),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ETAEELKKVAQELEE  15
+           ETAEELKKVAQELEE
+Sbjct  1   ETAEELKKVAQELEE  15
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.114    0.258    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0347    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 81
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+81 unnamed protein product                                            29.6       2e-07
+
+
+>81 unnamed protein product
+Length=15
+
+ Score = 29.6 bits (65),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KQAGLVVKLLMKLNG  15
+           KQAGLVVKLLMKLNG
+Sbjct  1   KQAGLVVKLLMKLNG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 81
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.155    0.462    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0475    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 82
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+82 unnamed protein product                                            30.8       9e-08
+
+
+>82 unnamed protein product
+Length=15
+
+ Score = 30.8 bits (68),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LTRVQGKKTTVILPL  15
+           LTRVQGKKTTVILPL
+Sbjct  1   LTRVQGKKTTVILPL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 82
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 83
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+83 unnamed protein product                                            33.1       1e-08
+
+
+>83 unnamed protein product
+Length=15
+
+ Score = 33.1 bits (74),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GILPILVKCLERDDN  15
+           GILPILVKCLERDDN
+Sbjct  1   GILPILVKCLERDDN  15
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.154    0.475    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 83
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+83 unnamed protein product                                            27.1       2e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>83 unnamed protein product
+Length=15
+
+ Score = 27.1 bits (59),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GILPILVKCLERDDN  15
+           GILPILVKCLERDDN
+Sbjct  1   GILPILVKCLERDDN  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.163    0.562    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0498    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 84
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+84 unnamed protein product                                            32.3       2e-08
+
+
+>84 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GVGRRHIKNTLITKH  15
+           GVGRRHIKNTLITKH
+Sbjct  1   GVGRRHIKNTLITKH  15
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 84
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+84 unnamed protein product                                            20.3       0.001
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>84 unnamed protein product
+Length=15
+
+ Score = 20.3 bits (41),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   GVGRRHIKNTLITKH  15
+           GVGRRHIKNTLITKH
+Sbjct  1   GVGRRHIKNTLITKH  15
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.146    0.466    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0447    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 85
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+85 unnamed protein product                                            33.1       1e-08
+
+
+>85 unnamed protein product
+Length=15
+
+ Score = 33.1 bits (74),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PYLDNLVKHLHSIMV  15
+           PYLDNLVKHLHSIMV
+Sbjct  1   PYLDNLVKHLHSIMV  15
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.143    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 85
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+85 unnamed protein product                                            21.1       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>85 unnamed protein product
+Length=15
+
+ Score = 21.1 bits (43),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   PYLDNLVKHLHSIMV  15
+           PYLDNLVKHLHSIMV
+Sbjct  1   PYLDNLVKHLHSIMV  15
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.150    0.516    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0459    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 86
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+86 unnamed protein product                                            29.6       2e-07
+
+
+>86 unnamed protein product
+Length=15
+
+ Score = 29.6 bits (65),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KKLLDDIKMLNKPKD  15
+           KKLLDDIKMLNKPKD
+Sbjct  1   KKLLDDIKMLNKPKD  15
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.139    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 86
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+86 unnamed protein product                                            20.3       0.001
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>86 unnamed protein product
+Length=15
+
+ Score = 20.3 bits (41),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   KKLLDDIKMLNKPKD  15
+           KKLLDDIKMLNKPKD
+Sbjct  1   KKLLDDIKMLNKPKD  15
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.147    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0449    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 87
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+87 unnamed protein product                                            31.2       5e-08
+
+
+>87 unnamed protein product
+Length=15
+
+ Score = 31.2 bits (69),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AKQIQMVKQIGKGRY  15
+           AKQIQMVKQIGKGRY
+Sbjct  1   AKQIQMVKQIGKGRY  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 87
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0422    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 88
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+88 unnamed protein product                                            33.5       7e-09
+
+
+>88 unnamed protein product
+Length=15
+
+ Score = 33.5 bits (75),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ASNFYFNKTKGFYCL  15
+           ASNFYFNKTKGFYCL
+Sbjct  1   ASNFYFNKTKGFYCL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.143    0.489    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 88
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+88 unnamed protein product                                            21.1       5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>88 unnamed protein product
+Length=15
+
+ Score = 21.1 bits (43),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ASNFYFNKTKGFYCL  15
+           ASNFYFNKTKGFYCL
+Sbjct  1   ASNFYFNKTKGFYCL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.151    0.568    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0462    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 89
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+89 unnamed protein product                                            31.6       4e-08
+18 unnamed protein product                                            26.6       3e-06
+
+
+>89 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LHSEKRDKKSPLIES  15
+           LHSEKRDKKSPLIES
+Sbjct  1   LHSEKRDKKSPLIES  15
+
+
+>18 unnamed protein product
+Length=15
+
+ Score = 26.6 bits (57),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1   LHSEKRDKKSPL  12
+           LHSEKRDKKSPL
+Sbjct  4   LHSEKRDKKSPL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.122    0.315    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 89
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+89 unnamed protein product                                            20.9       6e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>89 unnamed protein product
+Length=15
+
+ Score = 20.9 bits (42),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LHSEKRDKKSPLIES  15
+           LHSEKRDKKSPLIES
+Sbjct  1   LHSEKRDKKSPLIES  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.127    0.334    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0388    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 90
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+90 unnamed protein product                                            26.9       3e-06
+
+
+>90 unnamed protein product
+Length=15
+
+ Score = 26.9 bits (58),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SISFSKPKKKKSFSK  15
+           SISFSKPKKKKSFSK
+Sbjct  1   SISFSKPKKKKSFSK  15
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.115    0.285    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 90
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.125    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 91
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+91 unnamed protein product                                            29.6       2e-07
+
+
+>91 unnamed protein product
+Length=15
+
+ Score = 29.6 bits (65),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LLRKGLEKKGAVTGG  15
+           LLRKGLEKKGAVTGG
+Sbjct  1   LLRKGLEKKGAVTGG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.141    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 91
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.145    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0444    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 92
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+92 unnamed protein product                                            32.3       2e-08
+
+
+>92 unnamed protein product
+Length=15
+
+ Score = 32.3 bits (72),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SNLGHLNKPSIQALI  15
+           SNLGHLNKPSIQALI
+Sbjct  1   SNLGHLNKPSIQALI  15
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.132    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 92
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+92 unnamed protein product                                            25.4       9e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>92 unnamed protein product
+Length=15
+
+ Score = 25.4 bits (54),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   SNLGHLNKPSIQALI  15
+           SNLGHLNKPSIQALI
+Sbjct  1   SNLGHLNKPSIQALI  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0409    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 93
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+93 unnamed protein product                                            30.8       8e-08
+
+
+>93 unnamed protein product
+Length=15
+
+ Score = 30.8 bits (68),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LEKELLEKKPWQLQG  15
+           LEKELLEKKPWQLQG
+Sbjct  1   LEKELLEKKPWQLQG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.134    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 93
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+93 unnamed protein product                                            21.6       4e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>93 unnamed protein product
+Length=15
+
+ Score = 21.6 bits (44),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LEKELLEKKPWQLQG  15
+           LEKELLEKKPWQLQG
+Sbjct  1   LEKELLEKKPWQLQG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.143    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0436    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 94
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+94 unnamed protein product                                            32.0       2e-08
+
+
+>94 unnamed protein product
+Length=15
+
+ Score = 32.0 bits (71),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ALADGVQKVHKGTTI  15
+           ALADGVQKVHKGTTI
+Sbjct  1   ALADGVQKVHKGTTI  15
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 94
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+94 unnamed protein product                                            23.9       4e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>94 unnamed protein product
+Length=15
+
+ Score = 23.9 bits (50),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ALADGVQKVHKGTTI  15
+           ALADGVQKVHKGTTI
+Sbjct  1   ALADGVQKVHKGTTI  15
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.133    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 95
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+95 unnamed protein product                                            31.6       3e-08
+
+
+>95 unnamed protein product
+Length=15
+
+ Score = 31.6 bits (70),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LQVKIPSKEEEADMS  15
+           LQVKIPSKEEEADMS
+Sbjct  1   LQVKIPSKEEEADMS  15
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.116    0.278    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 95
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+95 unnamed protein product                                            21.0       6e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>95 unnamed protein product
+Length=15
+
+ Score = 21.0 bits (42),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   LQVKIPSKEEEADMS  15
+           LQVKIPSKEEEADMS
+Sbjct  1   LQVKIPSKEEEADMS  15
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.125    0.325    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 96
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+96 unnamed protein product                                            34.3       3e-09
+
+
+>96 unnamed protein product
+Length=15
+
+ Score = 34.3 bits (77),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   HGKAVEGKGCYTVDN  15
+           HGKAVEGKGCYTVDN
+Sbjct  1   HGKAVEGKGCYTVDN  15
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.136    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 96
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+96 unnamed protein product                                            26.2       5e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>96 unnamed protein product
+Length=15
+
+ Score = 26.2 bits (56),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   HGKAVEGKGCYTVDN  15
+           HGKAVEGKGCYTVDN
+Sbjct  1   HGKAVEGKGCYTVDN  15
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 97
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+97 unnamed protein product                                            30.8       8e-08
+
+
+>97 unnamed protein product
+Length=15
+
+ Score = 30.8 bits (68),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   AATAAFNKDALLNWL  15
+           AATAAFNKDALLNWL
+Sbjct  1   AATAAFNKDALLNWL  15
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.124    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 97
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.135    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0412    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 1
+
+
+Query= 98
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+98 unnamed protein product                                            32.7       1e-08
+39 unnamed protein product                                            30.8       7e-08
+
+
+>98 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   IAHSLLYKKVNEAQY  15
+           IAHSLLYKKVNEAQY
+Sbjct  1   IAHSLLYKKVNEAQY  15
+
+
+>39 unnamed protein product
+Length=15
+
+ Score = 30.8 bits (68),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  2   AHSLLYKKVNEAQY  15
+           AHSLLYKKVNEAQY
+Sbjct  1   AHSLLYKKVNEAQY  14
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.128    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 98
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+98 unnamed protein product                                            22.0       2e-04
+39 unnamed protein product                                            21.2       4e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>98 unnamed protein product
+Length=15
+
+ Score = 22.0 bits (45),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   IAHSLLYKKVNEAQY  15
+           IAHSLLYKKVNEAQY
+Sbjct  1   IAHSLLYKKVNEAQY  15
+
+
+>39 unnamed protein product
+Length=15
+
+ Score = 21.2 bits (43),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  2   AHSLLYKKVNEAQY  15
+           AHSLLYKKVNEAQY
+Sbjct  1   AHSLLYKKVNEAQY  14
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.131    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0402    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+Results from round 1
+
+
+Query= 99
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+99 unnamed protein product                                            32.7       1e-08
+
+
+>99 unnamed protein product
+Length=15
+
+ Score = 32.7 bits (73),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ALVKVLDKWPLRSGG  15
+           ALVKVLDKWPLRSGG
+Sbjct  1   ALVKVLDKWPLRSGG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.142    0.468    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+Results from round 2
+
+
+Query= 99
+
+Length=15
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+99 unnamed protein product                                            27.6       1e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>99 unnamed protein product
+Length=15
+
+ Score = 27.6 bits (60),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  1   ALVKVLDKWPLRSGG  15
+           ALVKVLDKWPLRSGG
+Sbjct  1   ALVKVLDKWPLRSGG  15
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.153    0.536    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0468    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22500
+
+Search has CONVERGED!
+
+
+  Database: onesdb
+    Posted date:  Aug 20, 2019  12:18 AM
+  Number of letters in database: 1,500
+  Number of sequences in database:  100
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
